@@ -11,7 +11,7 @@ public class TEIT extends EEIT {
 	@Override
 	protected int run2() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 3;
 	}
     
 }
