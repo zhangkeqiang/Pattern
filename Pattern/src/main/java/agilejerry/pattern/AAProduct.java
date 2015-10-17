@@ -9,15 +9,15 @@ public class AAProduct extends ProductSkeleton {
 
 
 	@Override
-	protected void step1() {
-		// TODO Auto-generated method stub
+	protected int step1() {
+		return 123;
 		
 	}
 
 	@Override
-	protected int step2() {
-		step21();
-		return step22();
+	protected int step2(int i) {
+		step21();		
+		return step22(i+23);
 		
 	}
 	
@@ -25,8 +25,8 @@ public class AAProduct extends ProductSkeleton {
 		//do nothing
 	}
 
-	private int step22(){
-		return 122;
+	private int step22(int i){
+		return 122+i;
 		
 	}
 }

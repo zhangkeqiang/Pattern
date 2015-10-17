@@ -7,11 +7,11 @@ public abstract class ProductSkeleton implements Product {
 
 	}
 	public int calc(){
-		step1();
-		return step2();
+		int i = step1();
+		return step2(i);
 	}
 	
-	protected abstract void step1();
-	protected abstract int step2();
+	protected abstract int step1();
+	protected abstract int step2(int i);
 	
 }

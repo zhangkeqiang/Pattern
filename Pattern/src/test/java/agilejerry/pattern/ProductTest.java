@@ -15,6 +15,6 @@ public class ProductTest extends TestCase {
 	}
 	
 	public void testCalc(){		
-		assertEquals(p.calc(), 122);
+		assertEquals(268, p.calc());
 	}
 }
