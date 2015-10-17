@@ -18,8 +18,10 @@ public class EITTest extends TestCase {
 	}
 
 	public void testRun() {
-		EEIT eit = new TEIT();
-		//eit.run();
+		IEIT eit = new TIEIT();
+		eit.run();
 	}
+	
+	
 
 }
