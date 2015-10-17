@@ -1,8 +1,8 @@
 package agilejerry.pattern;
 
-public class UEIT {
-	IEIT eit;
-	public void setEIT(IEIT theeit){
+public class EITU {
+	EITI eit;
+	public void setEIT(EITI theeit){
 		this.eit = theeit;
 	}
 	

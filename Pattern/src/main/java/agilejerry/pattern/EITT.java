@@ -1,6 +1,6 @@
 package agilejerry.pattern;
 
-public class TEIT extends EEIT {
+public class EITT extends EITE {
 
 	@Override
 	protected int run1() {

@@ -1,5 +1,5 @@
 package agilejerry.pattern;
 
-public interface IEIT {
+public interface EITI {
 	public void run();
 }

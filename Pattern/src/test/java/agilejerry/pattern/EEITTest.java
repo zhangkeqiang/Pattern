@@ -18,7 +18,7 @@ public class EEITTest {
 
 	@Test
 	public void testRun() {
-		EEIT eit = new TEIT();
+		EITE eit = new EITT();
 		eit.run();
 	}
 

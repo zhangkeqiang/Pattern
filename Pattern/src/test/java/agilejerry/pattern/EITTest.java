@@ -13,12 +13,12 @@ public class EITTest extends TestCase {
 	}
 
 	public void testStart() {
-		EEIT eit = new TEIT();
+		EITE eit = new EITT();
 		assertEquals(5, eit.run());
 	}
 
 	public void testRun() {
-		IEIT eit = new TIEIT();
+		EITI eit = new EITIT();
 		eit.run();
 	}
 	

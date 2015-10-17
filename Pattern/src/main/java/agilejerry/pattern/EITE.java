@@ -1,6 +1,6 @@
 package agilejerry.pattern;
 
-public abstract class EEIT {
+public abstract class EITE {
 
 	public int run(){
 		System.out.println("run...");
