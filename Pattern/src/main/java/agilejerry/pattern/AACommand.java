@@ -9,6 +9,7 @@ public class AACommand implements Command {
 	
 	public AACommand(){
 		//add some
+		//dddd ffffffff
 		this.II = 10;
 	}
 	public boolean execute() {
