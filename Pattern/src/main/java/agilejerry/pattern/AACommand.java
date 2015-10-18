@@ -8,6 +8,7 @@ public class AACommand implements Command {
 	
 	public AACommand(){
 		//just for conflict
+		//edit in develop
 		this.II = 10;
 	}
 	public boolean execute() {
