@@ -2,8 +2,9 @@ package agilejerry.pattern;
 
 public class EITU {
 	EITI eit;
-	public void setEIT(EITI theeit){
-		this.eit = theeit;
+	EITCommander commander;
+	public void setEIT(){
+		this.eit = EITCommander.createEITI();
 	}
 	
 	public void run(){
@@ -13,4 +14,15 @@ public class EITU {
 			System.out.println("EIT is null");			
 		}
 	}
+	
+	public void setCommander(EITCommander theCommander){
+		commander = theCommander;
+	}
+	
+	public int calc(){
+		int iRet=0;
+		
+		return iRet;
+	}
+	
 }

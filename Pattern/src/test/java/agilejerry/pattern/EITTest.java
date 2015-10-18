@@ -12,9 +12,22 @@ public class EITTest extends TestCase {
 		super.tearDown();
 	}
 
-	public void testStart() {
-		EITE eit = new EITT();
-		assertEquals(5, eit.run());
+	public void testRun2() {
+		EITE eit = EITCommander.createEIT();
+		assertEquals(503, eit.run());
+	}
+	
+	public void testRun3() {
+		EITE eit2 = EITCommander.createEIT();
+		assertEquals(503, eit2.run());
+		EITE eit = new EITT2();
+		eit.setContext(EITCommander.getContext());
+		assertEquals(503, eit.run());
+		eit.setContextI(5);
+		//eit2 = EITCommander.createEIT();
+		assertEquals(8, eit2.run());
+		eit.setContextI(100);
+		assertEquals(103, eit2.run());
 	}
 
 	public void testRun() {

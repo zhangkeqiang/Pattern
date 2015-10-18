@@ -18,8 +18,13 @@ public class EEITTest {
 
 	@Test
 	public void testRun() {
-		EITE eit = new EITT();
+		EITE eit = EITCommander.createEIT();
 		eit.run();
 	}
-
+	@Test
+	public void testRun2(){
+		EITU eitu = new EITU();
+		eitu.setEIT();
+		eitu.run();
+	}
 }

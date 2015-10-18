@@ -4,7 +4,7 @@ public class EITT extends EITE {
 
 	@Override
 	protected int run1() {
-		return 2;
+		return this.context.getI();
 	}
 
 	@Override
