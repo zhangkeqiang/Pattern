@@ -22,7 +22,7 @@ public class EITTest extends TestCase {
 		assertEquals(503, eit2.run());
 		EITE eit = new EITT2();
 		eit.setContext(EITCommander.getContext());
-		assertEquals(503, eit.run());
+		assertEquals(1505, eit.run());
 		eit.setContextI(5);
 		//eit2 = EITCommander.createEIT();
 		assertEquals(8, eit2.run());
