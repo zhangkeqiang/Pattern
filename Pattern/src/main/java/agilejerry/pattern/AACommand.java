@@ -1,6 +1,7 @@
 package agilejerry.pattern;
 
 public class AACommand implements Command {
+	
 	private int II;
 	public AACommand(int i){
 		this.II = i;
@@ -13,6 +14,7 @@ public class AACommand implements Command {
 	}
 	public boolean execute() {
 		System.out.println("AACommand"  + II);
+		//change some in dev 
 		return true;
 	}
 
