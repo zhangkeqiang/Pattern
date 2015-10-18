@@ -6,7 +6,8 @@ public class AACommand implements Command {
 		this.II = i;
 	}
 	
-	public AACommand(){		
+	public AACommand(){
+		//add some
 		this.II = 10;
 		//change some
 	}
