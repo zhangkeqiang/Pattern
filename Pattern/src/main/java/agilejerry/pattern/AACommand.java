@@ -7,6 +7,7 @@ public class AACommand implements Command {
 	}
 	
 	public AACommand(){
+		//add some
 		this.II = 10;
 	}
 	public boolean execute() {
