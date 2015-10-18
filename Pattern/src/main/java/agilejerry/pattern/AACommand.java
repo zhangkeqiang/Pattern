@@ -7,8 +7,8 @@ public class AACommand implements Command {
 	}
 	
 	public AACommand(){
-		//just for conflict
-		//edit in develop
+		//just for conflict bbbb
+		//edit in develop  ddddd
 		this.II = 10;
 	}
 	public boolean execute() {
