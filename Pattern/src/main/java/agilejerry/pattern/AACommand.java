@@ -6,8 +6,9 @@ public class AACommand implements Command {
 		this.II = i;
 	}
 	
-	public AACommand(){
+	public AACommand(){		
 		this.II = 10;
+		//change some
 	}
 	public boolean execute() {
 		System.out.println("AACommand"  + II);
