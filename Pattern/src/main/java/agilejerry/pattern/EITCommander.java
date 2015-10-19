@@ -17,7 +17,12 @@ public class EITCommander {
 	}
 
 	public static EITE createEIT(){
-		EITE eit = new EITT();
+		EITE eit = null;
+		if(getContext().getEITType()=="EITT"){
+		    eit = new EITT();
+		}else if(getContext().getEITType()=="EITT2"){
+			eit = new EITT2();
+		}
 		eit.setContext(getContext());
 		return eit;
 	}

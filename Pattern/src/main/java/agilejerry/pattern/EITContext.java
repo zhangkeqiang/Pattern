@@ -18,4 +18,8 @@ public class EITContext {
 	public void setI(int i) {
 		I = i;		
 	}
+
+	public String getEITType() {
+		return "EITT";
+	}
 }
