@@ -7,10 +7,8 @@ public abstract class EITE {
 		return run1() + run2();
 	}
 	
-
-	abstract protected int run1();
+	protected abstract int run1();
 	abstract protected int run2();
-
 
 	public void setContext(EITContext theContext) {
 		this.context = theContext;
