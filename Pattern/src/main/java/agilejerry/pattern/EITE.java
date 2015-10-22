@@ -1,6 +1,6 @@
 package agilejerry.pattern;
 
-public abstract class EITE {
+public abstract class EITE implements EITI{
 	protected EITContext context;
 	public int run(){
 		System.out.println("EITE.run...run1 = " + run1());
