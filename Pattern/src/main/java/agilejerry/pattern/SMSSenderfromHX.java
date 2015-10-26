@@ -1,10 +1,10 @@
 package agilejerry.pattern;
 
-public class HXSMSSender extends SMSSender {
+public class SMSSenderfromHX extends SMSSender {
 
 	@Override
 	public void sendVerifyCode(String sPhone, String message) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
