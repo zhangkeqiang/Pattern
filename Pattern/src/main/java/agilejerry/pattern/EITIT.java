@@ -2,8 +2,9 @@ package agilejerry.pattern;
 
 public class EITIT implements EITI {
 
-	public void run() {
+	public int run() {
 		System.out.println("TIEIT.run");
+		return 0;
 		
 	}
     
