@@ -2,9 +2,7 @@ package agilejerry.pattern;
 
 public class AAProduct extends ProductSkeleton {
 
-	public void fly() {
-		// TODO Auto-generated method stub
-		
+	public void fly() {		
 	}
 
 
