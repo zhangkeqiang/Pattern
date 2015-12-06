@@ -1,9 +1,12 @@
 package agilejerry.pattern;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.*;
 
-public class FactoryTest extends TestCase {
+import org.junit.Test;
 
+public class FactoryTest {
+
+	@Test
 	public void testCreateProduct() {
 		//SimpleFactory factory = new SimpleFactory();
 		//assertNotNull(factory);

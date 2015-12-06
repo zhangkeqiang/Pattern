@@ -1,5 +1,9 @@
 package agilejerry.pattern;
 
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
 import junit.framework.TestCase;
 
 public class EITTest extends TestCase {
@@ -35,6 +39,11 @@ public class EITTest extends TestCase {
 		eit.run();
 	}
 	
+	
+	@Test
+	public void testEITIConstant() {
+		assertEquals(1001, EITI.III);
+	}
 	
 
 }

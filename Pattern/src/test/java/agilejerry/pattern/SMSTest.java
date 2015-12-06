@@ -28,5 +28,7 @@ public class SMSTest {
 		assertNotNull(sender);
 		sender.send("13311650327","SMSContents");
 	}
+	
+
 
 }

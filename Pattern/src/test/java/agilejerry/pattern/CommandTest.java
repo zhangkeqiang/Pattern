@@ -1,17 +1,22 @@
 package agilejerry.pattern;
 
+import static org.junit.Assert.*;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import org.junit.Test;
 
-import junit.framework.TestCase;
 
-public class CommandTest extends TestCase {
 
+public class CommandTest{
+
+	@Test
     public void test1(){
     	assertTrue(true);
     }
     
+	@Test
     public void testExecute(){
     	ArrayList<Command> list = new ArrayList<Command>();
     	list.add(new AACommand());

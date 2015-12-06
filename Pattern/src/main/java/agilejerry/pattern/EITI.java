@@ -1,5 +1,6 @@
 package agilejerry.pattern;
 
 public interface EITI {
-	public void run();
+	public static final int III = 1001;
+	public int run();
 }

@@ -1,19 +1,23 @@
 package agilejerry.pattern;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.*;
 
-public class ProductTest extends TestCase {
+import org.junit.Before;
+import org.junit.Test;
+
+public class ProductTest {
 	Product p;
-	protected void setUp() throws Exception {
-		
+	@Before
+	public void setUp(){		
 		p = SimpleFactory.CreateProduct();
-		super.setUp();
 	}
+	@Test
 	public void testFly() {		    
 		p.fly();
 		assertTrue(true);
 	}
 	
+	@Test
 	public void testCalc(){		
 		assertEquals(268, p.calc());
 	}
