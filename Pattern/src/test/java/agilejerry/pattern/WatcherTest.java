@@ -42,5 +42,13 @@ public class WatcherTest {
 		
 	}
 
+	@Test
+	public void testCastDown(){
+	    WatcherFromMinhang watchdown1 = new WatcherFromMinhang();
+	    WatcherFromShangHai watchUp = (WatcherFromShangHai) watchdown1 ;
+	    WatcherFromMinhang watchdown = (WatcherFromMinhang) watchUp;
+	    System.out.println(watchdown.toString());
+	    watchUp.update("dddd");
+	}
 
 }
