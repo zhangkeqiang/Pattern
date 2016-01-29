@@ -10,12 +10,10 @@ public abstract class SMSSender {
 	};
 	
 	private void addCodeList(String sPhone, String code) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	private String generateCode() {
-		// TODO Auto-generated method stub
 		return "2345";
 	}
 
@@ -28,7 +26,6 @@ public abstract class SMSSender {
 	}
 
 	private boolean isInCodeList(String sPhone, String code) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 

@@ -3,7 +3,6 @@ package agilejerry.pattern;
 public abstract class ProductSkeleton implements Product {
 
 	public void fly() {
-		// TODO Auto-generated method stub
 
 	}
 	public int calc(){

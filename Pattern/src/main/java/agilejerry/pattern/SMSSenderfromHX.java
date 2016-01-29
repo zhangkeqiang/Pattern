@@ -10,7 +10,6 @@ public class SMSSenderfromHX extends SMSSender {
 
 	@Override
 	public void send(String string, String string2) {
-		// TODO Auto-generated method stub
 		
 	}
 
